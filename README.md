@@ -47,9 +47,10 @@
 ---
 
 ### 📫 Connect with me
-
-<p align="left">
-<a href="mailto:fabioldemoraes@gmail.com" title="Email"><img src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" height="32" alt="Gmail"></a>&nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/fabioleonardomoraes" title="LinkedIn"><img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" height="32" alt="LinkedIn"></a>&nbsp;&nbsp;&nbsp;<a href="https://discord.com/users/966308411333554256" title="Discord"><img src="https://www.vectorlogo.zone/logos/discord/discord-icon.svg" height="32" alt="Discord"></a>
+<p align="center">
+<a href="mailto:fabioldemoraes@gmail.com" title="Email"><img src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" height="34" alt="Gmail"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://linkedin.com/in/fabioleonardomoraes" title="LinkedIn"><img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" height="34" alt="LinkedIn"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://discord.com/users/966308411333554256" title="Discord"><img src="https://www.vectorlogo.zone/logos/discord/discord-icon.svg" height="34" alt="Discord"></a>
 </p>
 <!-- Profile views badge (opcional) -->
 <img src="https://komarev.com/ghpvc/?username=Fabio-Leo19&label=Profile%20views&color=0e75b6&style=flat" alt="views"/>
