@@ -1,27 +1,55 @@
-# Olá, me chamo Fabio Leonardo !
-## Bem vindo ao meu perfil GitHub👋
-<!--
-**Fabio-Leo19/Fabio-Leo19** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1 align="center">Hi 👋, I'm Fabio Leonardo</h1>
 
-Here are some ideas to get you started:
--->
-🔭 Atualmente estou trabalhando na area de T.I (HelpDesk) 
+<p align="center">
+  I’m a developer focused on building clean UIs and solid app architecture.  
+  Right now I’m turning my studies into real-world projects.
+</p>
 
-👨🏻‍🎓 Estou finalizando minha faculdade de "Análise e Desenvolvimento de Sistemas" (Anhanguera) e meus cursos são:
-- Back-End (Udemy
-- Design Grafico (Udemy)
-- Front-End Design (Udemy)
-- Desenvolvimento de Jogos (Saga)
-- Java Script e Typescript (Udemy)
-- JavaScript Avançado (Instituto federal)
-- Administrando Banco de Dados (Fundação Bradesco)
-- AI-900 - Fundamentos de IA no Azure (Fundação Bradesco)
+---
 
-🤝 Estou procurando colaborar em projetos tanto de Web Design como Programação de jogos (Unreal Engine)
+### 🔧 Tech Stack
 
-## Contatos:
+<p>
+  <!-- icons: https://github.com/devicons/devicon/tree/master/icons -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="32" alt="JavaScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="32" alt="HTML5"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="32" alt="CSS3"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="32" alt="Bootstrap"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="32" alt="React"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="32" alt="SQL/MySQL"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="32" alt="Kotlin"/>
+</p>
 
-<div>
-<a href="https://instagram.com/seu-usuário-instagram-aqui" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-<a href="www.linkedin.com/in/fabio-leonardo-de-moraes-9b2041208" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
-</div>
+---
+
+### 🚧 Currently building
+- A mobile app focused on productivity/finances using **Kotlin** (Android) and a small **REST API**.  
+- UI experiments with **React** + **Bootstrap**.
+
+> I’ll pin the repositories here as soon as they go public.
+
+---
+
+### 🗺️ Roadmap (next steps)
+- [ ] Publish MVP of the mobile app  
+- [ ] Create a reusable **React** component library (buttons, forms, modals)  
+- [ ] Build a simple **Node/Express** API with authentication and SQL  
+- [ ] Write short docs for each project (setup, scripts, screenshots)
+
+---
+
+### 🧠 What I like to work with
+- Clean UI, accessibility, componentization
+- State management in React
+- SQL modeling and queries
+- Kotlin for Android with a maintainable architecture (MVVM)
+
+---
+
+### 📫 Connect with me
+- Email: fabioldemoraes@gmail.com
+- LinkedIn: linkedin.com/in/fabioleonardomoraes
+- Discord: fabio_19#1522
+
+<!-- Profile views badge (opcional) -->
+<img src="https://komarev.com/ghpvc/?username=Fabio-Leo19&label=Profile%20views&color=0e75b6&style=flat" alt="views"/>
