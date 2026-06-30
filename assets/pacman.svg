@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">Pac-Man decorativo animado</title>
+  <desc id="desc">Pac-Man e fantasmas se movimentam continuamente por um labirinto decorativo.</desc>
+  <style>
+    :root{--wall:#a8b3c2;--dot:#22c55e;--dot2:#4ade80;--pac:#ffe600;--red:#ff3157;--pink:#ff7bd5;--cyan:#40d9ff;--orange:#ff9f43;--eye:#f8fafc;--pupil:#2563eb}
+    @media(prefers-color-scheme:light){:root{--wall:#475569;--dot:#16a34a;--dot2:#22c55e}}
+    .wall{fill:none;stroke:var(--wall);stroke-width:5;stroke-linecap:round;stroke-linejoin:round;opacity:.95}
+    .dot{fill:var(--dot);animation:pulse 1.1s ease-in-out infinite alternate}
+    .alt{fill:var(--dot2);animation-delay:.45s}
+    @keyframes pulse{from{opacity:.45}to{opacity:1}}
+  </style>
+  <defs>
+    <mask id="pm"><circle cx="0" cy="0" r="14" fill="white"/><polygon fill="black"><animate attributeName="points" dur=".34s" repeatCount="indefinite" values="0,0 18,-9 18,9;0,0 18,-2 18,2;0,0 18,-9 18,9"/></polygon></mask>
+    <g id="gr"><path d="M-12 12V-2A12 12 0 0 1 12-2V12L8 8L4 12L0 8L-4 12L-8 8Z" fill="var(--red)"/><circle cx="-5" cy="-2" r="3.5" fill="var(--eye)"/><circle cx="5" cy="-2" r="3.5" fill="var(--eye)"/><circle cx="-4" cy="-2" r="1.5" fill="var(--pupil)"/><circle cx="6" cy="-2" r="1.5" fill="var(--pupil)"/></g>
+    <g id="gp"><path d="M-12 12V-2A12 12 0 0 1 12-2V12L8 8L4 12L0 8L-4 12L-8 8Z" fill="var(--pink)"/><circle cx="-5" cy="-2" r="3.5" fill="var(--eye)"/><circle cx="5" cy="-2" r="3.5" fill="var(--eye)"/><circle cx="-4" cy="-2" r="1.5" fill="var(--pupil)"/><circle cx="6" cy="-2" r="1.5" fill="var(--pupil)"/></g>
+    <g id="gc"><path d="M-12 12V-2A12 12 0 0 1 12-2V12L8 8L4 12L0 8L-4 12L-8 8Z" fill="var(--cyan)"/><circle cx="-5" cy="-2" r="3.5" fill="var(--eye)"/><circle cx="5" cy="-2" r="3.5" fill="var(--eye)"/><circle cx="-4" cy="-2" r="1.5" fill="var(--pupil)"/><circle cx="6" cy="-2" r="1.5" fill="var(--pupil)"/></g>
+    <g id="go"><path d="M-12 12V-2A12 12 0 0 1 12-2V12L8 8L4 12L0 8L-4 12L-8 8Z" fill="var(--orange)"/><circle cx="-5" cy="-2" r="3.5" fill="var(--eye)"/><circle cx="5" cy="-2" r="3.5" fill="var(--eye)"/><circle cx="-4" cy="-2" r="1.5" fill="var(--pupil)"/><circle cx="6" cy="-2" r="1.5" fill="var(--pupil)"/></g>
+  </defs>
+  <path class="wall" d="M25 32H285V20H505V70H725V20H945V40H1175"/>
+  <path class="wall" d="M25 150H305V162H545V118H785V162H995V142H1175"/>
+  <path class="wall" d="M25 70H110V120H200V70H295"/>
+  <path class="wall" d="M340 48V116H425V48"/>
+  <path class="wall" d="M500 92H600V45H685"/>
+  <path class="wall" d="M750 68H845V126H940"/>
+  <path class="wall" d="M1005 52V122H1080V67H1175"/>
+  <g>
+    <circle class="dot" cx="50" cy="92" r="4"/><circle class="dot alt" cx="90" cy="92" r="4"/><circle class="dot" cx="130" cy="92" r="4"/><circle class="dot alt" cx="170" cy="92" r="4"/><circle class="dot" cx="210" cy="92" r="4"/><circle class="dot alt" cx="250" cy="92" r="4"/>
+    <circle class="dot" cx="290" cy="62" r="4"/><circle class="dot alt" cx="330" cy="45" r="4"/><circle class="dot" cx="370" cy="45" r="4"/><circle class="dot alt" cx="410" cy="45" r="4"/><circle class="dot" cx="450" cy="72" r="4"/><circle class="dot alt" cx="450" cy="112" r="4"/>
+    <circle class="dot" cx="490" cy="136" r="4"/><circle class="dot alt" cx="530" cy="136" r="4"/><circle class="dot" cx="570" cy="136" r="4"/><circle class="dot alt" cx="610" cy="136" r="4"/><circle class="dot" cx="650" cy="136" r="4"/><circle class="dot alt" cx="690" cy="108" r="4"/>
+    <circle class="dot" cx="690" cy="68" r="4"/><circle class="dot alt" cx="730" cy="52" r="4"/><circle class="dot" cx="770" cy="52" r="4"/><circle class="dot alt" cx="810" cy="52" r="4"/><circle class="dot" cx="850" cy="52" r="4"/><circle class="dot alt" cx="890" cy="52" r="4"/>
+    <circle class="dot" cx="930" cy="70" r="4"/><circle class="dot alt" cx="930" cy="110" r="4"/><circle class="dot" cx="970" cy="136" r="4"/><circle class="dot alt" cx="1010" cy="136" r="4"/><circle class="dot" cx="1050" cy="136" r="4"/><circle class="dot alt" cx="1090" cy="136" r="4"/><circle class="dot" cx="1130" cy="136" r="4"/>
+  </g>
+  <g><circle cx="0" cy="0" r="14" fill="var(--pac)" mask="url(#pm)"/><animateMotion path="M45 92H250V45H450V136H690V52H930V136H1150" dur="9s" repeatCount="indefinite" rotate="auto"/></g>
+  <g><use href="#gr"/><animateMotion path="M45 92H250V45H450V136H690V52H930V136H1150" dur="11s" begin="-2s" repeatCount="indefinite" rotate="auto"/></g>
+  <g><use href="#gp"/><animateMotion path="M45 92H250V45H450V136H690V52H930V136H1150" dur="12.5s" begin="-5s" repeatCount="indefinite" rotate="auto"/></g>
+  <g><use href="#gc"/><animateMotion path="M45 92H250V45H450V136H690V52H930V136H1150" dur="10.5s" begin="-7s" repeatCount="indefinite" rotate="auto"/></g>
+  <g><use href="#go"/><animateMotion path="M45 92H250V45H450V136H690V52H930V136H1150" dur="13s" begin="-9s" repeatCount="indefinite" rotate="auto"/></g>
+</svg>
