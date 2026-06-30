@@ -20,9 +20,7 @@
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Fabio-Leo19/Fabio-Leo19/main/assets/pacman.svg" alt="Pac-Man decorativo animado" width="100%">
-</p>
+<br> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardavieira-dev/eduardavieira-dev/output/pacman-contribution-graph-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eduardavieira-dev/eduardavieira-dev/output/pacman-contribution-graph.svg"> <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/eduardavieira-dev/eduardavieira-dev/output/pacman-contribution-graph.svg"> </picture>
 
 ---
 
